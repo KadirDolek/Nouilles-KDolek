@@ -25,7 +25,7 @@ header{
 .navHeader{
     display: flex;
     justify-content: space-around;
-    color: white;
+    color: rgb(0, 0, 0);
     margin-bottom: -100px;
     position: sticky;
     top: 0px;
@@ -54,7 +54,7 @@ h1, .headerNav{
 }
 .headerNav a{
     text-decoration: none;
-    color: white;
+    color: rgb(0, 0, 0);
     animation: textGlow 2s ease-in-out infinite alternate;
 }
 .secHeader2{
@@ -200,4 +200,15 @@ h1, .headerNav{
     font-size: 30px;
     color:  rgb(104, 89, 165);
     font-weight: 1000;
+}
+.imgSection3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2.5%;
+    margin-bottom: 10%;
+}
+.img1Section3{
+    height: 450px;
+    width: 490px;
 }
