@@ -1,3 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Sans+JP:wght@100..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Sofia&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@400..800&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Sans+JP:wght@100..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Sofia&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+.noto-sans-jp-{
+    font-family: "Noto Sans JP", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+  }
 body{
     margin: 0;
 }
@@ -8,11 +16,26 @@ header{
     background-size: cover;
     background-position: 50% 33%;
 }
-.divHeader{
+.navHeader{
     display: flex;
     justify-content: space-around;
     color: white;
+    margin-bottom: -100px;
+    position: sticky;
+    top: 0px;
 }
+.navHeader h1{
+    animation: textGlow 2s ease-in-out infinite alternate;
+}
+@keyframes textGlow {
+    from {
+        text-shadow: 0 0 10px #2e1616, 0 0 20px #47b115, 0 0 30px #f00379, 0 0 40px #f71212, 0 0 50px #e60073, 0 0 60px #aa4577, 0 0 70px #e60073;
+      }
+      to {
+        text-shadow: 0 0 20px #d80c0c, 0 0 30px #594dff, 0 0 40px #3826e2, 0 0 50px #ff4da6, 0 0 60px #4acc8b, 0 0 70px #4dff65, 0 0 80px #b90aee;
+      }
+}
+
 h1, .headerNav{
     margin-top: 0;
     padding-top: 2.75rem;
@@ -26,6 +49,7 @@ h1, .headerNav{
 .headerNav a{
     text-decoration: none;
     color: white;
+    animation: textGlow 2s ease-in-out infinite alternate;
 }
 .secHeader2{
     display: flex;
@@ -49,7 +73,9 @@ h1, .headerNav{
 }
 .divHeader2>p:nth-of-type(3){
     font-size: 2rem;
-    letter-spacing: 0.5rem;
+    letter-spacing: 0.8rem;
+    font-family: 'Noto Sans Jp';
+    font-weight: 300;
 }
 .btnHeader{
     padding: 0.9rem;
@@ -138,9 +164,10 @@ h1, .headerNav{
     flex-direction: column;
     align-items: center;
     line-height: 30px;
-    border: solid 1px gray;
+    border: solid 1px rgb(230, 233, 236);
     padding-left: 8%;
     padding-right: 8%;
     padding-top: 4%;
     padding-bottom: 6%;
+    border-radius: 5px;
 }
