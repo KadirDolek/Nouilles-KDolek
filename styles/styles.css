@@ -8,7 +8,7 @@ header{
     background-size: cover;
     background-position: 50% 35%;
 }
-.sectionHeader{
+.divHeader{
     display: flex;
     justify-content: space-around;
     color: white;
@@ -22,4 +22,19 @@ h1, .headerNav{
     list-style-type: none;
     gap: 8%;
     font-size: 140%;
+}
+.headerNav a{
+    text-decoration: none;
+    color: white;
+}
+.secHeader2{
+    display: flex;
+    justify-content: center;
+    padding-top: 5%;
+}
+.divHeader2>p:first-of-type{
+    width: 33%;
+    align-items: center;
+    font-size: 4.5rem;
+    color: rgb(89, 90, 96);
 }
