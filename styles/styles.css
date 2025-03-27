@@ -32,6 +32,9 @@ h1, .headerNav{
     justify-content: center;
     padding-top: 5%;
 }
+.divHeader2{
+    margin-left: -16%;
+}
 .divHeader2>p:first-of-type{
     align-items: center;
     font-size: 4.2rem;
