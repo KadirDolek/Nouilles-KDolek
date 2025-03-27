@@ -33,8 +33,26 @@ h1, .headerNav{
     padding-top: 5%;
 }
 .divHeader2>p:first-of-type{
-    width: 33%;
     align-items: center;
-    font-size: 4.5rem;
+    font-size: 4.2rem;
     color: rgb(89, 90, 96);
+    margin-bottom: 1.3rem;
+}
+.divHeader2>p:nth-of-type(2){
+    font-size: 5rem;
+    margin-top: 0;
+    margin-bottom: 1rem;
+    color: rgb(65, 69, 78);
+}
+.divHeader2>p:nth-of-type(3){
+    font-size: 1.8rem;
+    letter-spacing: 0.2rem;
+}
+.btnHeader{
+    padding: 0.6rem;
+    border-radius: 30px;
+    font-size: 0.9rem ;
+    background-color:rgb(105, 90, 166);
+    color: white;
+    border: none;
 }
