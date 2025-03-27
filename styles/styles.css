@@ -107,3 +107,14 @@ h1, .headerNav{
     justify-content: center;
     align-items: center;
 }
+.p1section2{
+    font-size: 1.5rem;
+    color: rgb(106, 106, 106);
+    margin-bottom: 0.5%;
+}
+.p2section2{
+    font-size: 3.3rem;
+    color:rgb(104, 89, 165);
+    font-weight: bold;
+    margin-top: 0%;
+}
