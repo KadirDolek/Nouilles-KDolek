@@ -2,11 +2,11 @@ body{
     margin: 0;
 }
 header{
-    background: linear-gradient(180deg,rgba(255, 95, 47, 0) 50%, rgba(255, 255, 255, 0.562) 90%), url(../img/header.jpg) no-repeat;
-    width: 100vw;
-    height: 100vh;
+    background: linear-gradient(180deg,rgba(255, 95, 47, 0) 50%, rgb(255, 255, 255) 90%), url(../img/header.jpg) no-repeat;
+    width: auto;
+    height: auto;
     background-size: cover;
-    background-position: 50% 35%;
+    background-position: 50% 33%;
 }
 .divHeader{
     display: flex;
@@ -48,14 +48,56 @@ h1, .headerNav{
     color: rgb(65, 69, 78);
 }
 .divHeader2>p:nth-of-type(3){
-    font-size: 1.8rem;
-    letter-spacing: 0.2rem;
+    font-size: 2rem;
+    letter-spacing: 0.5rem;
 }
 .btnHeader{
-    padding: 0.6rem;
+    padding: 0.9rem;
     border-radius: 30px;
-    font-size: 0.9rem ;
+    font-size: 1.3rem ;
     background-color:rgb(105, 90, 166);
     color: white;
     border: none;
+    margin-bottom: 30%;
+}
+.section1{
+    display: flex;
+    justify-content: center;
+    padding-right: 20%;
+}
+.divSection1{
+    width: 46%;
+    display: flex;
+    justify-content: end;
+}
+.div2Section1{
+    width: 60%;
+}
+.p1section1{
+    font-size: 120%;
+    margin-bottom: 1%;
+}
+.p2section1{
+    color: rgb(104, 89, 165);
+    font-weight: bold;
+    font-size: 3rem;
+    margin-top: 2px;
+    margin-bottom: 1%;
+}
+.p3section1{
+    font-size: 1.7rem;
+    line-height: 2rem;
+}
+.btnSection1{
+    margin-top: 3%;
+    background-color: transparent;
+    color: rgb(104, 89, 165);
+    border: solid 1px;
+    border-color: rgb(104, 89, 165);
+    border-radius: 30px;
+    padding : 1.2%;
+    font-size: 1.4rem;
+    padding-left: 2%;
+    padding-right: 2%;
+    font-weight: 500;
 }
