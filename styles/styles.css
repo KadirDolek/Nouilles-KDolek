@@ -6,6 +6,12 @@
     font-weight: 500;
     font-style: normal;
   }
+.baloo-2-{
+    font-family: "Baloo 2", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+  }
 body{
     margin: 0;
 }
@@ -57,7 +63,7 @@ h1, .headerNav{
     padding-top: 5%;
 }
 .divHeader2{
-    margin-left: -16%;
+    margin-left: -8.5%;
 }
 .divHeader2>p:first-of-type{
     align-items: center;
@@ -65,16 +71,22 @@ h1, .headerNav{
     color: rgb(89, 90, 96);
     margin-bottom: 1.3rem;
 }
+.divHeader2>p:nth-of-type(1){
+    font-family: 'Baloo 2';
+    font-weight: bold;
+}
 .divHeader2>p:nth-of-type(2){
     font-size: 5rem;
     margin-top: 0;
     margin-bottom: 1rem;
     color: rgb(65, 69, 78);
+    font-family: 'Baloo 2';
+    font-weight: bold;
 }
 .divHeader2>p:nth-of-type(3){
     font-size: 2rem;
     letter-spacing: 0.8rem;
-    font-family: 'Noto Sans Jp';
+    font-family: 'Baloo 2';
     font-weight: 300;
 }
 .btnHeader{
@@ -110,6 +122,9 @@ h1, .headerNav{
     font-size: 3rem;
     margin-top: 2px;
     margin-bottom: 1%;
+    font-family: 'Baloo 2';
+    font-weight: bold;
+    
 }
 .p3section1{
     font-size: 1.7rem;
@@ -144,6 +159,8 @@ h1, .headerNav{
     color:rgb(104, 89, 165);
     font-weight: bold;
     margin-top: 0%;
+    font-family: 'Baloo 2';
+    font-weight: bold;
 }
 .div2Section2{
     display: flex;
@@ -152,6 +169,7 @@ h1, .headerNav{
     gap: 2.5%;
     padding-left: 5%;
     padding-right: 5%;
+    margin-bottom: 10%;
 }
 .logoSection2{
     height: 80px;
@@ -165,9 +183,21 @@ h1, .headerNav{
     align-items: center;
     line-height: 30px;
     border: solid 1px rgb(230, 233, 236);
-    padding-left: 8%;
-    padding-right: 8%;
+    padding-left: 7%;
+    padding-right: 7%;
     padding-top: 4%;
-    padding-bottom: 6%;
+    padding-bottom: 3%;
     border-radius: 5px;
+}
+.logo1Section2, .logo2Section2{
+    padding-left: 6%;
+    padding-right: 6%;
+}
+.motSectionLogo{
+    font-family: 'Baloo 2';
+    font-weight: bold;
+    margin-top: 30%;
+    font-size: 30px;
+    color:  rgb(104, 89, 165);
+    font-weight: 1000;
 }
