@@ -64,6 +64,7 @@ h1, .headerNav{
     display: flex;
     justify-content: center;
     padding-right: 20%;
+    margin-bottom: 10%;
 }
 .divSection1{
     width: 46%;
@@ -100,4 +101,9 @@ h1, .headerNav{
     padding-left: 2%;
     padding-right: 2%;
     font-weight: 500;
+}
+.p1section2, .p2section2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
