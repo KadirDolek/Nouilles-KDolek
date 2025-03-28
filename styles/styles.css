@@ -285,9 +285,27 @@ h1{
     font-family: 'Baloo 2';
     font-weight: bold;
     margin-bottom: 1%;
+    margin-top: 13%;
 }
 .pSecMauve2{
-    font-size: 1.4rem;
-    font-weight: 100;
+    font-size: 1.3rem;
+    font-weight: 200;
     font-family: "Noto Sans JP", sans-serif;
+    letter-spacing: 1px;
+    margin-top: 1%;
+    margin-bottom: 13%;
+}
+.btnMauve{
+    font-family: 'Baloo 2';
+    font-weight: 1000;
+    font-size: 1.7rem;
+    background-color: rgb(248, 249, 250);
+    border: none;
+    border-radius: 6px;
+    padding-top: 8%;
+    padding-bottom: 8%;
+    display: block;
+    padding-left: 20px;
+    padding-right: 20px;
+
 }
