@@ -204,9 +204,11 @@ h1{
     display: flex;
     justify-content: center;
     align-items: center;
+    padding-right: 15%;
+    padding-left: 15%;
 }
 .divFreeSection4{
-    width: 26%;
+    width: 33%;
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -303,7 +305,6 @@ h1{
     align-items: center;
     
 }
-
 .texteSection6{
     border: solid 1.3px rgba(185, 176, 176, 0.719);
     font-family: "Noto Sans JP", sans-serif;
@@ -474,7 +475,7 @@ footer{
     gap: 10px;
 }
 
-@media (max-width:600px){
+@media (max-width:610px){
     body{
         overflow-x: hidden
     };
@@ -601,6 +602,9 @@ footer{
         justify-content: center;
         align-items: center;
     }
+    .p3section1{
+        font-size: 1.3rem;
+    }
     .div2Section2{
         display: flex;
         flex-wrap: wrap;
@@ -619,6 +623,42 @@ footer{
     }
     .logo4Section2{
         padding: 10%;
+    }
+    .imgSection3{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        gap: 2.5%;
+        margin-bottom: 10%;
+    }
+    .div2Section4{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        width: auto;
+    }
+    .divFreeSection4{
+        width: auto;
+    }
+    .sec5Mauve{
+        background-color: rgb(103, 88, 163) ;
+        height: auto;
+        color: rgb(255, 255, 255);
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        margin-top: 5%;
+        flex-direction: column;
+    }
+    .btnMauve{
+        margin-bottom: 3.5%;
+    }
+    .div1section6{
+        flex-wrap: wrap;
+        
     }
 }
 
