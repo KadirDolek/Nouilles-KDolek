@@ -371,17 +371,25 @@ h1{
     border: solid 1px grey;
     margin: 0 10%;
 }
+.box2Section7{
+    margin-bottom: 10%;
+}
 .imgSec7{
-    height: 400px;
+    height: 420px;
     clip-path: inset(0 50px 0 50px);
     position: relative;
     transform: translateX(-50px);
 }
 .TextSection7{
     transform: translateX(-45px);
+    font-size: 20px;
+    line-height: 27px;
+    font-family: "Noto Sans JP", sans-serif;
+    font-weight: 300;
+    letter-spacing: 1.1px;
 }
 .img2Sec7{
-    height: 400px;
+    height: 420px;
     clip-path: inset(0 50px 0 50px);
     transform: translateX(-50px);
 }
@@ -390,8 +398,43 @@ h1{
     font-weight: 1000;
     color:rgb(104, 89, 165);
     font-size: 1.8rem;
+    margin-bottom: 13px;
 }
 .phraseSection7{
-    color: rgb(106, 106, 106);
+    color: rgb(123, 123, 123);
+    font-size: 1rem;
+    margin-top: 8px;
+    margin-bottom: 25px;
+    font-weight: bold;
+    font-family: "Noto Sans JP", sans-serif;
+}
+#coeur{
+    color: red;
+}
+.readSection7{
+    color:rgb(104, 89, 165);
+    font-family: 'Baloo 2';
+    font-weight: 400;
 }
 
+.hr{
+    margin-top: 5%;
+    opacity: 50%;
+}
+.formulaire{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.textarea{
+    width: 50%;
+    height: 200px;
+    font-size: 1.3rem;
+    font-family: "Noto Sans JP", sans-serif;
+    font-weight: 400;
+}
+.btnForm{
+    margin-top: 3%;
+    color:rgb(104, 89, 165);
+}
