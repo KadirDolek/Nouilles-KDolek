@@ -279,6 +279,7 @@ h1{
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+    margin-top: 5%;
 }
 .pSecMauve1{
     font-size: 1.8rem;
