@@ -258,7 +258,7 @@ h1{
     font-size: 45px;
     font-weight: bold;
 }
-.fa-solid{
+#croix{
     color: red;
 }
 .btnSection4{
@@ -451,4 +451,38 @@ h1{
     font-family: "Noto Sans JP", sans-serif;
     font-weight: 400;
     margin-bottom: 10%;
+}
+footer{
+    display: flex;
+    justify-content: space-around;
+    gap: 35%;
+}
+.fa-brands, .fa-square-rss{
+    color: rgb(118, 127, 134);
+    border-radius: 50%;
+    border: solid 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+.fa-facebook-f{
+    padding-left: 5%;
+    padding-right: 5%;
+}
+.fa-google-plus-g{
+    padding-left: 8px;
+    padding-right: 8px;
+}
+.copyrightFooter{
+    font-size: 1.3rem;
+    color: rgb(106, 106, 106);
+}
+.logoFooter{
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    gap: 10px;
 }
