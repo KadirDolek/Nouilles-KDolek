@@ -554,12 +554,12 @@ footer{
     .divHeader2>p:nth-of-type(3){
         display: flex;
         justify-items: center;
+        align-items: center;
         text-align: center;
         font-size: 1.5rem;
         letter-spacing: 0.5rem;
         font-family: 'Baloo 2';
         font-weight: 300;
-        position: relative;
     }
     .btnHeader{
         display: flex;
@@ -581,6 +581,7 @@ footer{
         justify-content: center;
         flex-direction: column;
         align-items: center;
+        padding-right: 0;
     }
     .divSection1{
         width: 46%;
@@ -594,6 +595,30 @@ footer{
         flex-direction: column;
         align-items: center;
         text-align: center;
+    }
+    .p1Section2, .p2section2{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .div2Section2{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+    .logo1Section2{
+        padding: 3%;
+        border: auto;
+        margin: 0;
+    }
+    .logo2Section2{
+        padding: 6%;
+    }
+    .logo3Section2{
+        padding: 8%;
+    }
+    .logo4Section2{
+        padding: 10%;
     }
 }
 
