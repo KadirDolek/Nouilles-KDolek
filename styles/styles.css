@@ -33,7 +33,7 @@ header{
 
 h1{
     margin-top: 0;
-    padding-top: 2.75rem;
+    padding-top: 2rem;
     text-shadow: 1px 1px 1px rgb(11, 81, 146);
     color: rgb(255, 252, 252);
 }
@@ -46,7 +46,6 @@ h1{
 .headerNav a{
     text-decoration: none;
     color: rgb(255, 252, 252);
-    /* animation: textGlow 2s ease-in-out infinite alternate; */
     text-shadow: 1px 1px 1px rgb(11, 81, 146);
 }
 .secHeader2{
@@ -100,9 +99,6 @@ h1{
     width: 46%;
     display: flex;
     justify-content: end;
-}
-.div2Section1{
-    width: 60%;
 }
 .p1section1{
     font-size: 120%;
@@ -478,85 +474,126 @@ footer{
     gap: 10px;
 }
 
-@media (max-width:576px){
+@media (max-width:600px){
+    body{
+        overflow-x: hidden
+    };
+    .navHeader h1 {
+        color: white;
+        font-size: 24px;
+    }
 
-.navHeader h1 {
-    color: white;
-    font-size: 24px;
-}
+    .headerNav {
+        list-style-type: none;
+        display: flex;
+        gap: 20px;
+    }
+    #openBtn {
+        display: block;
+        background: none;
+        border: none;
+        cursor: pointer;
+        padding: 15px;
+        letter-spacing: 10px;
+    }
+    .burger-icon {
+        display: block;
+        width: 30px;
+        height: 30px;
+        position: relative;
+        justify-content: space-between;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 20px;
+    }
 
-.headerNav {
-    list-style-type: none;
-    display: flex;
-    gap: 20px;
-}
+    .burger-icon span {
+        display: block;
+        width: 100%;
+        height: 6px;
+        background-color: white;
+        border-radius: 10px;
+        transition: transform 0.3s ease, opacity 0.3s ease;
+        margin-top: 4px;
+        box-shadow: 1px 1px 1px rgb(11, 81, 146);
+    }
 
-.headerNav li {
-    display: inline;
-}
-
-.headerNav li a {
-    color: white;
-    text-decoration: none;
-    font-size: 16px;
-    padding: 8px 15px;
-    transition: background-color 0.3s;
-}
-
-.headerNav li a:hover {
-    background-color: #444;
-}
-
-#openBtn {
-    display: none;
-    background: none;
-    border: none;
-    cursor: pointer;
-    padding: 15px;
-    letter-spacing: 10px;
-}
-
-.burger-icon {
-    display: block;
-    width: 30px;
-    height: 30px;
-    position: relative;
-    justify-content: space-between;
-    flex-direction: column;
-    align-items: center;
-    margin-top: 25px;
-}
-
-.burger-icon span {
-    display: block;
-    width: 100%;
-    height: 6px;
-    background-color: white;
-    border-radius: 10px;
-    transition: transform 0.3s ease, opacity 0.3s ease;
-    margin-top: 4px;
-    box-shadow: 1px 1px 1px rgb(11, 81, 146);
-}
-
-.headerNav {
-    display: none;
-    flex-direction: column;
-    width: 100%;
-    position: absolute;
-    top: 60px;
-    left: 0;
-    background-color: #333;
-    padding: 20px;
-}
-
-.headerNav li {
-    text-align: center;
-    margin-bottom: 10px;
-}
-
-    /* Afficher le bouton burger en mode mobile */
-#openBtn {
-    display: block;
-}
+    .headerNav {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+        position: absolute;
+        top: 60px;
+        left: 0;
+        background-color: #333;
+        padding: 20px;
+    }
+    .secHeader2{
+        display: flex;
+        justify-content: center;
+        padding-top: 5%;
+    }
+    .divHeader2>p:first-of-type{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 2.2rem;
+        color: rgb(89, 90, 96);
+        margin-top:30%;
+    }
+    .divHeader2>p:nth-of-type(2){
+        display: flex;
+        justify-content: center;
+        font-size: 3.5rem;
+        margin-top: 0;
+        margin-bottom: 1rem;
+        color: rgb(65, 69, 78);
+        font-family: 'Baloo 2';
+        font-weight: bold;
+    }
+    .divHeader2>p:nth-of-type(3){
+        display: flex;
+        justify-items: center;
+        text-align: center;
+        font-size: 1.5rem;
+        letter-spacing: 0.5rem;
+        font-family: 'Baloo 2';
+        font-weight: 300;
+        position: relative;
+    }
+    .btnHeader{
+        display: flex;
+        justify-content: center;
+        padding: 0.9rem;
+        border-radius: 30px;
+        font-size: 1.3rem ;
+        background-color:rgb(105, 90, 166);
+        color: white;
+        border: none;
+        margin-bottom: 30%;
+    }
+    .divBtnHeader{
+        display: flex;
+        justify-content: center;
+    }
+    .section1{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+    .divSection1{
+        width: 46%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .div2Section1{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
 }
 
