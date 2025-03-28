@@ -357,6 +357,7 @@ h1{
     width: 100%;
     display: inline-flex;
     justify-content: center;
+    margin-bottom: 10%;
 }
 .avatar2Sec6{
     border-radius: 50%;
@@ -364,5 +365,33 @@ h1{
     position: relative;
     left: 4%;
     bottom: -50px;
+}
+.boxSection7, .box2Section7{
+    display: flex;
+    border: solid 1px grey;
+    margin: 0 10%;
+}
+.imgSec7{
+    height: 400px;
+    clip-path: inset(0 50px 0 50px);
+    position: relative;
+    transform: translateX(-50px);
+}
+.TextSection7{
+    transform: translateX(-45px);
+}
+.img2Sec7{
+    height: 400px;
+    clip-path: inset(0 50px 0 50px);
+    transform: translateX(-50px);
+}
+.titreSection7{
+    font-family: 'Baloo 2';
+    font-weight: 1000;
+    color:rgb(104, 89, 165);
+    font-size: 1.8rem;
+}
+.phraseSection7{
+    color: rgb(106, 106, 106);
 }
 
