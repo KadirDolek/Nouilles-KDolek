@@ -315,3 +315,7 @@ h1{
     justify-content: center;
     align-items: center;
 }
+.section6textes{
+    display: flex;
+    gap: 10%;
+}
