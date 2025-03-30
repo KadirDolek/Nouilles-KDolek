@@ -490,7 +490,8 @@ footer{
 /* PASSAGE A LA VERSION MOBILE  */
 
 
-@media (max-width:610px){
+@media (max-width:610px){£
+    /* NAV/HEADER  */
     body{
         overflow-x: hidden;
     }
@@ -572,7 +573,7 @@ footer{
         align-items: center;
         text-align: center;
         font-size: 1.5rem;
-        letter-spacing: 0.5rem;
+        letter-spacing: 0rem;
         font-family: 'Baloo 2';
         font-weight: 300;
     }
@@ -591,6 +592,7 @@ footer{
         display: flex;
         justify-content: center;
     }
+    /* PREMIERE SECTION  */
     .section1{
         display: flex;
         justify-content: center;
@@ -614,6 +616,7 @@ footer{
         align-items: center;
         text-align: center;
     }
+    /* DEUXIEME SECTION  */
     .p1Section2, .p2section2{
         display: flex;
         justify-content: center;
@@ -641,6 +644,7 @@ footer{
     .logo4Section2{
         padding: 10%;
     }
+    /* TROISIEME SECTION  */
     .imgSection3{
         display: flex;
         align-items: center;
@@ -654,12 +658,7 @@ footer{
         height: 250px;
         width: 220px;
     }
-    .pSecMauve1, .pSecMauve2{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        text-align: center;
-    }
+    /* QUATRIEME SECTION  */
     .div2Section4{
         display: flex;
         justify-content: center;
@@ -669,6 +668,13 @@ footer{
     }
     .divFreeSection4{
         width: auto;
+    }
+    /* CINQUIEME SECTION EN MAUVE  */
+    .pSecMauve1, .pSecMauve2{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
     }
     .sec5Mauve{
         background-color: rgb(103, 88, 163) ;
@@ -685,6 +691,7 @@ footer{
     .btnMauve{
         margin-bottom: 3.5%;
     }
+    /* SIXIEME SECTION  */
     .div1section6{
         flex-wrap: wrap;
         
@@ -700,11 +707,13 @@ footer{
         left: 30%;
         bottom: -230px;
     } 
+    /* SEPTIEME SECTION  */
     .boxSection7, .box2Section7{
         display: flex;
         border: solid 1px grey;
         flex-wrap: wrap;
         justify-content: center;
+        text-align: center;
     }
     .imgSec7, .img2Sec7{
         display: flex;
@@ -725,6 +734,7 @@ footer{
         font-family: "Noto Sans JP", sans-serif;
         font-weight: 300;
     }
+    /* HUITIEME SECTION FORMULAIRE  */
     .textarea{
         width: 70%;
         font-size: 1rem;
@@ -732,6 +742,7 @@ footer{
     .btnForm{
         font-size: 1rem;
     }
+    /* COPYRIGHT / FOOTER  */
     .copyrightFooter{
         font-size: 1rem;
         color: rgb(106, 106, 106);
