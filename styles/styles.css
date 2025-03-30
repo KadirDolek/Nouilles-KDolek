@@ -14,6 +14,7 @@
   }
 body{
     margin: 0;
+    overflow-x: hidden;
 }
 header{
     background: linear-gradient(180deg,rgba(255, 95, 47, 0) 50%, rgb(255, 255, 255) 90%), url(../img/header.jpg) no-repeat;
@@ -22,6 +23,7 @@ header{
     background-size: cover;
     background-position: 50% 33%;
 }
+/* NAV  */
 .navHeader{
     display: flex;
     justify-content: space-around;
@@ -48,6 +50,7 @@ h1{
     color: rgb(255, 252, 252);
     text-shadow: 1px 1px 1px rgb(11, 81, 146);
 }
+/* HEADER  */
 .secHeader2{
     display: flex;
     justify-content: center;
@@ -89,6 +92,7 @@ h1{
     border: none;
     margin-bottom: 30%;
 }
+/* PREMIERE SECTION  ABOUT ME */
 .section1{
     display: flex;
     justify-content: center;
@@ -131,7 +135,7 @@ h1{
     padding-right: 2%;
     font-weight: 500;
 }
-
+/* DEUXIEME SECTION SERVICE  */
 .p1section2, .p2section2{
     display: flex;
     justify-content: center;
@@ -189,6 +193,7 @@ h1{
     color:  rgb(104, 89, 165);
     font-weight: 1000;
 }
+/* TROISIEME SECTION PORTFOLIO */
 .imgSection3{
     display: flex;
     justify-content: center;
@@ -200,6 +205,7 @@ h1{
     height: 450px;
     width: 490px;
 }
+/* QUATRIEME SECTION MY PRICING */
 .div2Section4{
     display: flex;
     justify-content: center;
@@ -260,6 +266,7 @@ h1{
     border: none;
     font-size: 22px;
 }
+/* CINQUIEME SECTION LE PTIT BLOC EN MAUVE AVEC LE BOUTON HIRE ME  */
 .sec5Mauve{
     background-color: rgb(103, 88, 163) ;
     height: auto;
@@ -299,6 +306,7 @@ h1{
     padding-right: 20px;
 
 }
+/* SIXIEME SECTION TESTMONIAL  */
 .div1section6{
     display: flex;
     flex-direction: column;
@@ -355,6 +363,7 @@ h1{
     left: 4%;
     bottom: -50px;
 }
+/* SEPTIEME SECTION BLOG  */
 .boxSection7, .box2Section7{
     display: flex;
     border: solid 1px grey;
@@ -405,7 +414,7 @@ h1{
     font-family: 'Baloo 2';
     font-weight: 400;
 }
-
+ /* HUITIEME SECTION FORMULAIRE  */
 .hr{
     margin-top: 5%;
     opacity: 50%;
@@ -441,6 +450,7 @@ h1{
     font-weight: 400;
     margin-bottom: 10%;
 }
+/* FOOTER  */
 footer{
     display: flex;
     justify-content: space-around;
@@ -476,6 +486,10 @@ footer{
     gap: 10px;
 }
 
+
+/* PASSAGE A LA VERSION MOBILE  */
+
+
 @media (max-width:610px){
     body{
         overflow-x: hidden;
@@ -484,7 +498,6 @@ footer{
         color: white;
         font-size: 24px;
     }
-
     .headerNav {
         list-style-type: none;
         display: flex;
@@ -585,8 +598,11 @@ footer{
         align-items: center;
         padding-right: 0;
     }
+    .man{
+        height: 300px;
+    }
     .divSection1{
-        width: 46%;
+        width: 50%;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -630,8 +646,19 @@ footer{
         align-items: center;
         justify-content: center;
         flex-direction: column;
-        gap: 2.5%;
         margin-bottom: 10%;
+        width: 100%;
+        overflow-x: hidden;
+    }
+    .img1Section3{
+        height: 250px;
+        width: 220px;
+    }
+    .pSecMauve1, .pSecMauve2{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
     }
     .div2Section4{
         display: flex;
@@ -653,6 +680,7 @@ footer{
         align-items: center;
         margin-top: 5%;
         flex-direction: column;
+        width: 100%;
     }
     .btnMauve{
         margin-bottom: 3.5%;
@@ -667,7 +695,7 @@ footer{
     }
     .avatarSec6, .avatar2Sec6{
         border-radius: 50%;
-        height: 120px;
+        height: 80px;
         position: relative;
         left: 30%;
         bottom: -230px;
@@ -676,13 +704,19 @@ footer{
         display: flex;
         border: solid 1px grey;
         flex-wrap: wrap;
+        justify-content: center;
     }
     .imgSec7, .img2Sec7{
-        height: 420px;
-        clip-path: inset(0 80px 0 50px);
+        display: flex;
+        align-self: center;
+        justify-content: center;
+        height: 300px;
+        width: 100%;
+        clip-path: inset(0 0px 0 0px);
         position: relative;
-        transform: translateX(-50px);
+        transform: translateX(0px);
         z-index: -1;
+        margin: 0;
     }
     .TextSection7{
         transform: translateX(3px);
@@ -710,5 +744,11 @@ footer{
         align-items: center;
         padding: 10px;
         gap: 7px;
+    }
+    footer{
+        display: flex;
+        justify-content: center;
+        gap: 0;
+        overflow-x: hidden;
     }
 }
