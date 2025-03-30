@@ -268,6 +268,7 @@ h1{
     justify-content: space-evenly;
     align-items: center;
     margin-top: 5%;
+    margin-bottom: 5%;
 }
 .pSecMauve1{
     font-size: 1.8rem;
@@ -477,8 +478,8 @@ footer{
 
 @media (max-width:610px){
     body{
-        overflow-x: hidden
-    };
+        overflow-x: hidden;
+    }
     .navHeader h1 {
         color: white;
         font-size: 24px;
@@ -660,5 +661,36 @@ footer{
         flex-wrap: wrap;
         
     }
+    .section6textes{
+        width: 100%;
+        flex-wrap: wrap;
+    }
+    .avatarSec6, .avatar2Sec6{
+        border-radius: 50%;
+        height: 120px;
+        position: relative;
+        left: 30%;
+        bottom: -230px;
+    } 
+    .boxSection7, .box2Section7{
+        display: flex;
+        border: solid 1px grey;
+        flex-wrap: wrap;
+    }
+    .imgSec7, .img2Sec7{
+        height: 420px;
+        clip-path: inset(0 80px 0 50px);
+        position: relative;
+        transform: translateX(-50px);
+        z-index: -1;
+    }
+    .TextSection7{
+        transform: translateX(3px);
+        font-size: 16px;
+        line-height: 27px;
+        font-family: "Noto Sans JP", sans-serif;
+        font-weight: 300;
+    }
+
 }
 
